@@ -1,0 +1,30 @@
+img {
+    width: 200px;
+    margin: 10px;
+}
+
+.clip-circle {
+    clip-path: circle(150px at 0 150px);
+}
+
+.clip-ellipse {
+    clip-path: ellipse(150px 150px at 200px 150px);
+}
+
+.clip-polygon {
+    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.clip-svg {
+    clip-path: url(#myClip);
+    border-radius: 50px 100px 50px 0 40px;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 5px;
+}
+
+body {
+    background: linear-gradient(to right,
+            green,
+            blue);
+}
